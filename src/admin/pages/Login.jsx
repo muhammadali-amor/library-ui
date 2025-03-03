@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import '../assets/css/login.css'
 export const Login =()=>{
     return(
@@ -23,5 +24,12 @@ export const Login =()=>{
             </div>
             </div>
 
+=======
+export const Login=()=>{
+    return(
+        <div>
+            salom login
+        </div>
+>>>>>>> Stashed changes
     )
 }
