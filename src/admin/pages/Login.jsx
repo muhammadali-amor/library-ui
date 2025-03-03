@@ -11,15 +11,16 @@ export const Login =()=>{
                     <div className='input-box'>
                         <input type="text" placeholder='password'/>
                     </div>
+                    
                     <div className='remember-forgot'>
                         <label><input type="checkbox"/>Rember me</label>
                         <a href="#">Forgot Password</a>
                     </div>
-                    <button className='btn'>Login</button>
-                    <div className='register-link'>
+                </form>
+                <button className='btn'>Login</button>
+                <div className='register-link'>
                         <p>Dont have account? <a href="">Register</a></p>
                     </div>
-                </form>
             </div>
             </div>
 

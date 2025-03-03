@@ -1,0 +1,88 @@
+.login-backgrounda{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/bookPhoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.login-containera{
+    width: 30%;
+    height: 80vh;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+.login-containera h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-weight: 650;
+
+}
+.login-containera .input-boxa{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-boxa input{
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    padding-left: 18px;
+    font-size: 18px;
+    color: white;
+    margin-left: 7.5%;
+}
+.input-boxa input::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.login-containera .remember-forgota{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -10px 0 15px;
+    padding-left: 45px;
+    padding-right: 50px;   
+}
+.remember-forgota a{
+    color: white;
+    text-decoration: none;
+}
+label {
+    color: #fff;
+}
+.remember-forgota a:hover{
+    text-decoration: underline;
+}
+.login-containera .btna{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(241, 191, 8, 0.65);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left:25%;
+    margin-top: 70px;
+}
+.login-backgrounda .register-linka{
+    font-family: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register-linka p{
+    color: white;
+    font-size: 18px;
+}

@@ -5,12 +5,14 @@ import {AdminLayout} from "./admin/layout/AdminLayout.jsx";
 // import {UserMenu} from "./user/component/UserMenu.jsx";
 import { Login } from "./admin/pages/Login.jsx";
 import { AdminDashboard } from "./admin/components/AdminDashboard.jsx";
+import { Register } from "./admin/pages/Register.jsx";
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/login" element={<Login/>}/>
+                <Route path="/register" element={<Register/>}/>
                     {/* <Route index element={<AdminDashboard/>}/> */}
                 <Route path={"/admin-dashboard"} element={<AdminLayout/>}>
                     <Route index element={<AdminDashboard/>}/>
