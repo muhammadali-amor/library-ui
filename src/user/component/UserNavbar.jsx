@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Dashboard = () => {
+const UserNavbar = () => {
     return (
         <div>
-            Dashboard
+            UserNavbar
         </div>
     );
 };
 
-export default Dashboard;
+export default UserNavbar;
