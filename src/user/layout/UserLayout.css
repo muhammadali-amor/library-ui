@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --primary-color: hsl(240, 79%, 24%); /* To‘q kulrang (ba’zi matnlar) */
+    --secondary-color: hsl(0, 0%, 90%); /* To‘q ko‘k (asosiy tugmalar va matnlar) */
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --text-color: hsl(240, 100%, 19%);
+    --grey-text: hsl(0, 0%, 40%);
+    --input-color: hsl(240, 20%, 96%);
+    --gradient-color: linear-gradient(to right, hsl(231, 100%, 35%),  /* Eng to‘q */ hsl(226, 98%, 47%) /* Eng och */);
+    --hover-gradient: linear-gradient(to right, hsla(231, 100%, 35%, 0.91),  /* Eng to‘q */ hsla(226, 98%, 47%, 0.87) /* Eng och */);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .6rem 1.5rem;
+    /*background: var(--gradient-color);*/
+    border-radius: 10rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--white-color);
+}
+
+body{
+    background-image: linear-gradient(rgba(243, 243, 243, 0.89), rgba(220, 220, 220, 0.85)), url("../assets/images/img.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(218, 218, 218, 0.8);
+}
+
+.me{
+    margin-right: 5px;
+}
