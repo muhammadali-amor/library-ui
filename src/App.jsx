@@ -4,6 +4,7 @@ import {AdminLayout} from "./admin/layout/AdminLayout.jsx";
 // import {UserLayout} from "./user/layout/UserLayout.jsx";
 // import {UserMenu} from "./user/component/UserMenu.jsx";
 import { Login } from "./admin/pages/Login.jsx";
+import { AdminDashboard } from "./admin/components/AdminDashboard.jsx";
 
 function App() {
     return (
@@ -12,7 +13,7 @@ function App() {
                 <Route path="/login" element={<Login/>}/>
                     {/* <Route index element={<AdminDashboard/>}/> */}
                 <Route path={"/admin-dashboard"} element={<AdminLayout/>}>
-                    <Route index element={<Dashboard/>}/>
+                    <Route index element={<AdminDashboard/>}/>
                 </Route>
                 {/* <Route path={"/"} element={<UserLayout/>}> */}
                     {/* <Route index element={<UserMenu/>}/> */}
