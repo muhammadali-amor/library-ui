@@ -33,7 +33,7 @@ const UserNavbar = () => {
                     <button className="btn search-btn">
                         <FaSearch className={'icon'}/>
                     </button>
-                    <input type="text" className="input"/>
+                    <input type="text" placeholder={'type to search ...'} className="input"/>
                 </div>
                 <button className="btn likes-btn">
                     <FaHeartCircleBolt className={'icon'}/>
