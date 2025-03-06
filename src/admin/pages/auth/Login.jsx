@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import '../assets/css/login.css'
 import { useNavigate } from 'react-router-dom'
-import { LoginHandler } from '../connection/service/AuthService';
-import { ADMIN_URLS } from '../utils/Urls';
+import { LoginHandler } from '../../connection/service/AuthService';
+import { ADMIN_URLS } from '../../utils/Urls';
 export const Login =()=>{
     const navigate =useNavigate();
     const [email,setEmail]=useState('')

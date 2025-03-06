@@ -7,6 +7,7 @@ import {AppProvider} from '@toolpad/core/AppProvider';
 import {DashboardLayout} from '@toolpad/core/DashboardLayout';
 import {Outlet, useNavigate} from "react-router-dom";
 import { GiBookshelf } from "react-icons/gi";
+import { ADMIN_URLS } from '../utils/Urls';
 
 const NAVIGATION = [
     {
@@ -24,7 +25,7 @@ const NAVIGATION = [
         icon: <Groups3Icon/>,
     },
     {
-        segment: 'dashboard/books',
+        segment: `${ADMIN_URLS.book}`,
         title: 'Kitoblar',
         icon: <GiBookshelf />,
     },
