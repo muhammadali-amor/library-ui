@@ -1,5 +1,10 @@
+import { Grid } from "@mui/material"
+import { CardHeaders } from "../../components/CardHeader"
+
 export const Book=()=>{
     return(
-        <div>book</div>
+        <Grid sx={{p:"25px"}}>
+            <CardHeaders status={'save'} link={`/admin-dashboard/add-book`} name={"Kitoblar Saxifasi"}/>
+        </Grid>
     )
 }

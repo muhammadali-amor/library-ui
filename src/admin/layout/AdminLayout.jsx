@@ -25,7 +25,7 @@ const NAVIGATION = [
         icon: <Groups3Icon/>,
     },
     {
-        segment: `${ADMIN_URLS.book}`,
+        segment: `admin-dashboard/book`,
         title: 'Kitoblar',
         icon: <GiBookshelf />,
     },

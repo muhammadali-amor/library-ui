@@ -5,7 +5,7 @@ import './UserLayout.css'
 
 const UserLayout = () => {
     return (
-        <div>
+        <div className='body'>
             <UserNavbar/>
             <Outlet/>
         </div>
